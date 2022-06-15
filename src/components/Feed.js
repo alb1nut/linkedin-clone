@@ -6,6 +6,7 @@ import SubscriptionsIcon from '@mui/icons-material/Subscriptions';
 import EventNoteIcon from '@mui/icons-material/EventNote';
 import CalendarViewDayIcon from '@mui/icons-material/CalendarViewDay';
 import InputOption from './InputOption';
+import Posts from './Posts';
 
 
 const Feed = () => {
@@ -28,6 +29,9 @@ const Feed = () => {
       </div>
       </div>
       
+    {/* Posts */}
+    <Posts name='Albert Dovlo Nutifafa' description='This is a test'  message='Hello world jjhkjfh jsfdh fdhkajhr jdfhj dfjh dhfk hwj hjfdhj hjdfhie jfjko a.rh jhf hfier bkf bnbf kf dhh jfdfjfddflaffd gfhb ddfldfhheefd fhdgfhgfkdgfgah fa fgdfgdf hdf bflfddf hdfgfd hhgfdjf  ' photourl=''/>
+
     </div>
   )
 }
