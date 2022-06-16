@@ -8,7 +8,7 @@ import CalendarViewDayIcon from '@mui/icons-material/CalendarViewDay';
 import InputOption from './InputOption';
 import Posts from './Posts';
 import { db } from '../firebase/firebase';
-import firebase from 'firebase';
+import firebase from 'firebase/compat/app';
 
 const Feed = () => {
   const [posts ,setPosts] =useState([]);
